@@ -9,13 +9,15 @@ const Home = () => {
 			}}
 			justifyContent='center'
 			gap='80px'
+			alignItems='center'
 		>
 			<Stack
 				gap='24px'
+				alignItems='center'
 			>
 				<Box
 					component='img'
-					src='/logo/Logo-dark.png'
+					src='/logo/darklogo.png'
 					width='100px'
 				/>
 				<Typography
@@ -26,13 +28,14 @@ const Home = () => {
 				<Typography
 					variant='body1'
 				>
-					Twitter? Instagram? Why not both?
+					Twitter? Instagram? What about both?
 				</Typography>
 			</Stack>
 			<Stack
 				direction='row'
 				gap='32px'
 				sx={{
+					width: '100%',
 					maxWidth: 480
 				}}
 			>

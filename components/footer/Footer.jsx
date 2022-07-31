@@ -4,6 +4,7 @@ const Footer = () => {
     return (
         <Stack
             gap='24px'
+            alignItems='center'
         >
             <Divider 
                 flexItem
